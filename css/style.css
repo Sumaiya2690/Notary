@@ -1,0 +1,366 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	 padding: 15px 0;
+}
+.container {
+	overflow: hidden;
+	width: 70%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+
+.logo {
+	width: 20% ;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 75% ;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 10px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif ;
+	font-size: 16px;
+	font-weight: 600;
+	color: #535D69;
+	text-decoration: none;
+	padding: 0 10px;
+	display: inline-block;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #BD233F;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	/*min-height: 450px; */
+}
+.b_content{
+	margin-top: 150px;
+	margin-bottom: 150px;
+	width: 50%;
+	/*border: 1px solid red;*/
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	/*font-weight: 700;*/
+	color: white;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 17px;
+	/*font-weight: 400;*/
+	color: white;
+	margin-top: 0;
+  margin-bottom: 15px;
+}
+.b_content button{
+	width: 260px;
+	height: 50px;
+	background-color: #BE2342;
+	border: none;
+	font-family: sans-serif;
+	font-size: 15px;
+	/*font-weight: 400;*/
+	color: white;
+	text-transform: uppercase;
+	margin-top: 25px;
+	cursor: pointer;
+} 
+.b_content button:focus{
+	outline: 0;
+}
+.b_content button:hover{
+	box-shadow: 1px 1px 5px 2px rgb(190 35 66);
+}
+/*banner end*/
+/*work section start*/
+.work, .feature{
+	padding: 70px 0;
+}
+.w_top, .f_top{
+	text-align: center;
+   width: 65%;
+   margin: 0 auto;
+   margin-bottom: 80px;
+}
+.w_top h1, .f_top h1{
+	font-family: sans-serif;
+   font-size: 35px;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+}
+.w_top p, .f_top p{
+	font-family: sans-serif;
+    color: #535d69;
+    letter-spacing: 1px;
+    line-height: 23px;
+
+}
+.w_bottom{
+	overflow: hidden;
+}
+.b_item{
+	margin: 0 5.3%;
+  width: 20%;
+  float: left;
+}
+.bot_img{
+	width: 80%;
+  margin: 0 auto;
+}
+.bot_img img{
+	width: 100%;
+}
+.bot_text{
+	text-align: center
+}
+.bot_text p{
+	font-family: sans-serif;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #4c515a;
+    margin: 20px 0;
+}
+/*work section end*/
+/*learn section start*/
+.learn{
+	background-color: #fafafa;
+  overflow: hidden;
+  padding: 100px 0;
+}
+.l_container{
+	width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.l_left{
+	width: 45%;
+  float: left;
+}
+.l_left h1{
+	font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 35px;
+}
+.l_left p{
+	font-family: sans-serif;
+  color: #535d69;
+  line-height: 20px
+}
+.l_left button{
+	width: 150px;
+  height: 50px;
+  background-color: #be2342;
+  border: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.l_left button:hover{
+	box-shadow: 1px 1px 5px 2px rgb(190 35 66);
+}
+.l_right{
+	margin-left: 5%;
+  width: 45%;
+  float: left;
+}
+.l_right .inframe{
+	width: 100%;
+}
+
+/*learn section end*/
+/*feature section start*/
+.f_bottom{
+	overflow: hidden
+}
+.f_item{
+	width: 29%;
+  border: 1px solid #f3f3f3;
+  float: left;
+  margin: 2% 2%;
+  transition: all 0.5s;
+}
+.f_item:hover{
+	box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 75%);
+  cursor: pointer;
+}
+.f_img{
+	width: 25%;
+  margin: 30px auto;
+}
+.f_img img{
+	width: 100%;
+}
+.f_text{
+	text-align: center;
+}
+.f_text h2{
+	font-family: sans-serif;
+   font-size: 18px;
+   text-transform: capitalize;
+}
+.f_text p{
+	font-family: sans-serif;
+  padding: 0 15px;
+  line-height: 23px;
+  color: #535d69;
+}
+.button{
+	margin: 80px 40%;
+}
+.feature .button button{
+	width: 200px;
+  height: 50px;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #be2342;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #f3f3f3;
+  transition: all 0.3s;
+}
+.feature .button button:hover{
+	box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 75%);
+}
+/*feature section end*/
+/*contact section start*/
+.contact{
+	  background-color: #000;
+    font-family: sans-serif;
+    padding: 60px 0;
+}
+.con_wrapper{
+	overflow: hidden;
+}
+.contact_us{
+	float: left;
+  margin-right: 2%;
+  width: 31%;
+}
+.con_wrapper h2{
+	  margin-left: 13%;
+    text-transform: uppercase;
+    color: #be2342;
+}
+.con_wrapper .contact_us ul li{
+	  margin: 10px 0;
+    color: #535d69;
+    list-style-type: none;
+}
+.con_wrapper .contact_us ul li i{
+	color: #be2342;
+}
+
+.social_icon{
+	margin-top: 50px;
+  margin-left: 12%;
+}
+.social_icon i{
+  width: 20px;
+  text-align: center;
+  padding: 7px 2%;
+  margin: 0 1%;
+  font-size: 17px;
+  transition: all 0.3s;
+  background-color: #535d69;
+  border-radius: 3px;
+}
+.con_wrapper .link{
+	float: left;
+  margin-left: 2%;
+  width: 28%;
+}
+.con_wrapper .link ul li{
+	margin: 10px 0;
+ list-style-type: none;
+}
+.con_wrapper .link ul li a{
+	text-decoration: none;
+  color: #535d69;
+  transition: all 0.3s;
+}
+.con_wrapper .link ul li:hover a{
+	color: #be2342;
+}
+.newsletter{
+		float: left;
+    width: 30%;
+}
+.con_wrapper .newsletter p{
+	line-height: 25px;
+  color: #535d69;
+  margin-left: 13%;
+}
+.con_wrapper .newsletter input{
+	width: 42%;
+  height: 40px;
+  margin-left: 13%;
+  padding: 0 4%;
+  font-size: 15px;
+  background-color: black;
+  border-color: #535d69;
+  border: 1px solid #535d69;
+}
+.con_wrapper .newsletter button{
+	width: 35%;
+  height: 42px;
+  background-color: #be2342;
+  border: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: -2%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/*contact section end*/
+/*footer start*/
+.footer{
+	  padding: 22px 0;
+    text-align: center;
+    background-color: #535d69;
+}
+.footer p {
+    color: #fff;
+    font-family: sans-serif;
+}
+/*footer end*/
